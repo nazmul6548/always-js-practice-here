@@ -29,3 +29,11 @@ const yoyo = (...array) => {
     return array.length;
 }
 console.log(yoyo(100,200,3000,6,7,8,9,5,63,));
+
+
+const nameis = ["my","name","is","jewel"];
+
+const arris = [...nameis]
+
+console.log(...arris);
+console.log(arris);
