@@ -48,3 +48,13 @@ console.log(result11);
 const result12 = Math.sqrt(19.987);
 console.log(result12);
 
+// math.abs
+const result13 = Math.abs(-23.55)
+console.log(result13);
+
+
+// have math.max and math.min
+
+// Math.random
+const result14 =Math.floor(Math.random() * 1000000);
+console.log(result14);
