@@ -36,4 +36,9 @@ const result8 = Math.sign(0.00);
 console.log(result8);
 
 
+// Math.pow
+const result9 = Math.pow(4,3)
+console.log(result9);
+const result10 = Math.pow(2,2)
+console.log(result10);
 
