@@ -58,3 +58,16 @@ console.log(result13);
 // Math.random
 const result14 =Math.floor(Math.random() * 1000000);
 console.log(result14);
+
+
+
+
+// math.tanh
+const result15 = Math.tanh(45)
+console.log(result15);
+
+const result16 =Math.cosh(90)
+console.log(result16);
+
+const result17 =Math.sin(45)
+console.log(result17);
