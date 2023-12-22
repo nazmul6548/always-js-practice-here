@@ -27,5 +27,13 @@ const result5 = Math.trunc(-22.44);
 console.log(result5);
 
 
+// Math.sign
+const result6 = Math.sign(1.934);
+console.log(result6);
+const result7 = Math.sign(-1.999);
+console.log(result7);
+const result8 = Math.sign(0.00);
+console.log(result8);
+
 
 
