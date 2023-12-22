@@ -42,3 +42,9 @@ console.log(result9);
 const result10 = Math.pow(2,2)
 console.log(result10);
 
+// mATHY.SQRT
+const result11 = Math.sqrt(20);
+console.log(result11);
+const result12 = Math.sqrt(19.987);
+console.log(result12);
+
