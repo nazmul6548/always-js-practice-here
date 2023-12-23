@@ -41,3 +41,11 @@ const now3 = new Date();
 console.log(now3.toDateString());
 
 // totimestring
+const now4 = new Date();
+console.log(now4.toTimeString());
+
+// tolocalstring
+const now5 = new Date();
+console.log(now5.toLocaleString());
+
+
