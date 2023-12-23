@@ -54,6 +54,11 @@ console.log(result13);
 
 
 // have math.max and math.min
+const result18 = Math.max(1,2,3,4,6,);
+console.log(result18);
+const result19 = Math.min(6,7,67,8,8,3,5,7);
+console.log(result19);
+
 
 // Math.random
 const result14 =Math.floor(Math.random() * 1000000);
