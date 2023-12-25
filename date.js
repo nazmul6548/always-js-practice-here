@@ -49,3 +49,6 @@ const now5 = new Date();
 console.log(now5.toLocaleString());
 
 
+const now7 = new Date();
+const day1 = now7.getDay();
+console.log(day1);
