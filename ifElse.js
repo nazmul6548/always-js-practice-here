@@ -5,3 +5,4 @@ if(num== isEven){
 }else
 console.log("false");
 
+name
