@@ -25,5 +25,11 @@ console.log(a===b);
 function add(item,arr) {
     return arr.push(item);
 }
-const result = add("c",["a","b"]);
+// const result = add("c",["a","b"]);
+// console.log(result);
+
+async function getvalue(){
+    return "i love js"
+}
+const result = getvalue();
 console.log(result);
