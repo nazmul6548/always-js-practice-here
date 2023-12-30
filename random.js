@@ -4,7 +4,7 @@ function foo ( ) {
     return;
     function x() {}
 }
-foo();console.log(x);
+// foo();console.log(x);
 
 
 var name ="nazmul islam jewel";
@@ -18,7 +18,7 @@ var name ="nazmul islam jewel";
 
 const a=[0,1,2]
 const b=[0,1,2]
-console.log(a===b);
+// console.log(a===b);
 
 
 
@@ -32,4 +32,15 @@ async function getvalue(){
     return "i love js"
 }
 const result = getvalue();
-console.log(result);
+// console.log(result);
+
+
+
+const arr =[1,2,3,0,-3,-6];
+arr.forEach((number, i) =>{
+    if (number => 0) {
+        console.log("number: " ,number);
+        return;
+    }
+    console.log("stopping? nope! Number:", number);
+})
