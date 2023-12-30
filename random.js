@@ -9,7 +9,7 @@ function foo ( ) {
 
 var name ="nazmul islam jewel";
 (function() {
-    console.log(name);
+    // console.log(name);
     var name = "nazmul islam jewel";
 
     
@@ -37,8 +37,8 @@ const result = getvalue();
 
 
 const arr =[1,2,3,0,-3,-6];
-arr.forEach((number, i) =>{
-    if (number => 0) {
+arr.forEach((number) =>{
+    if (number >= 0) {
         console.log("number: " ,number);
         return;
     }
