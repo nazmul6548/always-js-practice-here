@@ -11,24 +11,41 @@ Note:
 use nested if-else-if-else
 */
 // ans:
-var myScore = 100;
+// var myScore = 80;
+// var myFriendScore = 30;
+// if (myScore >= 80 && myFriendScore >= 80) {
+//     console.log("go for a lunch");
+
+// } else if ((myScore >= 80) && (80 > myFriendScore && myFriendScore >= 60)) {
+//     console.log("good luck next time");
+
+// }else if ((myScore >= 80) && ( 60 > myFriendScore && myFriendScore >= 40)) {
+//     console.log("keep your friend's message unseen");
+
+// }else if ((myScore >= 80) && (myFriendScore < 40)) {
+//     console.log("block your friend");
+
+// }else if (myScore < 80 && myFriendScore <80) {
+//     console.log("let's go we are crying together");
+
+// }
+// else {
+//     console.log("personally you go to home and sleep and act sad");
+// }
+
+var myScore = 80;
 var myFriendScore = 30;
-if (myScore >= 80 && myFriendScore >= 80) {
+
+if (myScore >= 80) {
+  if (myFriendScore >= 80) {
     console.log("go for a lunch");
-    
-} else if ((myScore >= 80) && (80 > myFriendScore && myFriendScore >= 60)) {
+  } else if (myFriendScore >= 60 && myFriendScore < 80) {
     console.log("good luck next time");
-
-}else if ((myScore >= 80) && ( 60 > myFriendScore && myFriendScore >= 40)) {
-    console.log("keep your friend's message unseen");
-
-}else if ((myScore >= 80) && (myFriendScore < 40)) {
+  } else if (myFriendScore >= 40 && myFriendScore < 60) {
+    console.log(" keep your friend's message unseen");
+  } else if (myFriendScore < 40) {
     console.log("block your friend");
-
-}else if (myScore < 80 && myFriendScore <80) {
-    console.log("let's go we are crying together");
-    
-}
-else {
-    console.log("personally you go to home and sleep and act sad");
+  }
+} else {
+  console.log("go to home and sleep and act sad");
 }
